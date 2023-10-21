@@ -1,11 +1,11 @@
 fn main() {
     let numerik1 = 24;
-    let numerik2: i8 = 20;
+    let numerik2: i8 = -128;
     let numerik3: i16 = 32767;
 
     println!("{} | {} | {}", numerik1, numerik2, numerik3);
 
-    let fp1: f32 = 3.14;
+    let fp1 = 3.14;
     let fp2: f32 = 3.1415926535;
 
     println!("{} | {:.4}", fp1, fp2);
