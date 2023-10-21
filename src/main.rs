@@ -30,7 +30,7 @@ fn main() {
     }
 
     let second_number = match my_number {
-        0 => "Zero",
+        0 => "Nol",
         5 => "Lima",
         _ => "Tidak ada",
     };
@@ -40,7 +40,7 @@ fn main() {
     /*
     menggunakan match guard
      */
-    let children = 0;
+    let children = 5;
     let married = false;
 
     match (children, married) {
@@ -52,6 +52,15 @@ fn main() {
         }
         _ => println!("Married? {}. Number of children: {}.", married, children),
     }
+
+    // hasil konversi menjadi if
+    // if married == false {
+    //     println!("Not married with {} children", children);
+    // } else if children == 0 && married == true {
+    //     println!("Married but no children");
+    // } else {
+    //     println!("Married? {}. Number of children: {}.", married, children);
+    // }
 
     /*
     check colour
